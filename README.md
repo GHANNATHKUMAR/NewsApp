@@ -4,68 +4,121 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+# 📰 NewsHub – Full Stack News Aggregator
 
-In the project directory, you can run:
+A responsive full-stack news application built with **React.js** and **Express.js**. The application fetches the latest news articles by category through a secure backend API, ensuring that the News API key is never exposed on the client side.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📰 Top headlines by category
+- ♾️ Infinite scrolling
+- ⚡ Fast and responsive UI
+- 🔒 Secure backend using Express.js
+- 🌐 REST API integration
+- 📱 Mobile-friendly design
+- ❌ Error handling and loading spinner
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### Frontend
+- React.js
+- Bootstrap
+- React Router
+- React Infinite Scroll Component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
+- Node.js
+- Express.js
+- Axios
+- CORS
+- dotenv
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### API
+- NewsAPI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+NewsApp/
+│
+├── src/                 # React Frontend
+├── public/
+│
+└── server/              # Express Backend
+    ├── server.js
+    ├── package.json
+    └── .env
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Clone the repository
 
-## Learn More
+```bash
+git clone https://github.com/GHANNATHKUMAR/NewsApp.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd NewsApp
+npm install
+npm start
+```
 
-### Code Splitting
+### Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd server
+npm install
+node server.js
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔑 Environment Variables
 
-### Making a Progressive Web App
+Create a `.env` file inside the `server` folder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+NEWS_API_KEY=your_news_api_key
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📸 Screenshots
 
-### Deployment
+> Add screenshots of your application here.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🎯 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- User authentication
+- Bookmark articles
+- Search news
+- Dark mode
+- Multiple news providers
+- Pagination options
+
+---
+
+## 👨‍💻 Author
+
+**Ghannath Kumar**
+
+GitHub: https://github.com/GHANNATHKUMAR
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
