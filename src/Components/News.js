@@ -39,7 +39,7 @@ useEffect(()=>{
        setError(null);
     }
     try {
-      let url = `https://newsapi.org/v2/top-headlines?country=us&category=${props.category}&apiKey=5f041732458b4d67894b5e1cd564a0ab&page=${pageNum}&pageSize=${props.pageSize}`;
+      let url = `http://localhost:5000/news?category=${props.category}&page=${pageNum}&pageSize=${props.pageSize}`;
       let data = await fetch(url);
         props.setProgress(20);
       let parsedData = await data.json();
